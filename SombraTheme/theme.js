@@ -39,14 +39,14 @@
         setBg(startImage);
     }
   
-    var defImage = `https://media.discordapp.net/attachments/1226552947324878901/1226580677437292695/sombra_and_reaper_wallpaper.jpg?ex=66254946&is=6612d446&hm=3967978b2d3b44a020d23952d4e58a2f312ca9fe4766cf7e2775becfd87270b3&=&format=webp&width=1920&height=1080`;
+    var defImage = `https://raw.githubusercontent.com/Akame-Kohler/SpotifyThemes/main/SombraTheme/sombra%20and%20reaper%20wallpaper.jpg`;
     console.log("(Retroblur) Button color is '"+getComputedStyle(document.body).getPropertyValue("--spice-button")+"'")
     const marketplaceSchemeCSS = null;//await waitForMarketplaceColors();
     const buttonColor = marketplaceSchemeCSS == null ? getComputedStyle(document.body).getPropertyValue("--spice-button") : getComputedStyle(marketplaceSchemeCSS).getPropertyValue("--spice-button");
     switch (buttonColor) {
         case " #00bbff": {
             console.log("(Retroblur) Setting default wallpaper to Water");
-            defImage = "https://media.discordapp.net/attachments/1226552947324878901/1226580677437292695/sombra_and_reaper_wallpaper.jpg?ex=66254946&is=6612d446&hm=3967978b2d3b44a020d23952d4e58a2f312ca9fe4766cf7e2775becfd87270b3&=&format=webp&width=1920&height=1080";
+            defImage = "https://raw.githubusercontent.com/Akame-Kohler/SpotifyThemes/main/SombraTheme/sombra%20and%20reaper%20wallpaper.jpg";
             break;
         }
     }
